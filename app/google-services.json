@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "911340790690",
+    "project_id": "fir-login-7bf1e",
+    "storage_bucket": "fir-login-7bf1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911340790690:android:bbbc702c183683e33e08fb",
+        "android_client_info": {
+          "package_name": "com.roy.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911340790690-2qm1donorrb9uutgmtup46kb9h19v42i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChsI7pK2optalhTvZbZ9J8LFTE7-I1yV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911340790690-2qm1donorrb9uutgmtup46kb9h19v42i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

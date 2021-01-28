@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin_background"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/SignInimageView"
+        android:layout_width="132dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        app:srcCompat="@mipmap/ic_signup" />
+
+    <EditText
+        android:id="@+id/editTextEmailAddress"
+        android:layout_width="329dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:drawableStart="@android:drawable/ic_dialog_email"
+        android:drawablePadding="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTextEmailAddress"
+        android:layout_width="329dp"
+        android:layout_height="60dp"
+        android:drawableStart="@android:drawable/ic_lock_lock"
+        android:drawableTint="@color/white"
+        android:drawablePadding="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="16dp"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/signinBtn"
+        android:text="Sign IN"
+        android:layout_width="329dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/editTextPassword"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
